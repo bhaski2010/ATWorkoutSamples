@@ -15,6 +15,6 @@ public class Fibonacci {
     }
     public static void main (String []a) {
         Fibonacci f = new Fibonacci();
-        f.genfibnoNumber(9);
+        f.genfibnoNumber(10);
     }
 }
