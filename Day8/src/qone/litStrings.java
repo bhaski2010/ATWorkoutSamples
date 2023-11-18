@@ -11,7 +11,7 @@ public class litStrings {
         s1 = s1.replaceAll("Nisha", "Bashaa");
         System.out.println("Original S1 value after modifying: " + s1);
         System.out.println(("Memory of Org value: " + System.identityHashCode(s1)));
-        System.out.println("Org String is Immutable");
+        System.out.println("Org String is Immutable because memory address is different");
 
 
         System.out.println("\n****Non-Literal String******");
@@ -28,7 +28,7 @@ public class litStrings {
         System.out.println("Original String buffer value after modifying: " + buffer + " and Reversed value: " + rev);
         System.out.println("Memory of Org Value: " + System.identityHashCode(buffer));
         System.out.println(("Memory of Revised value: " + System.identityHashCode(rev)));
-        System.out.println("Org String is Mutable using String buffer or String Builder");
+        System.out.println("Org String is Mutable using String buffer or String Builder. Note that the memory address is same");
 
         StringBuffer buffer2 = new StringBuffer("Mark");
         System.out.println("Original before modifying: " + buffer2);

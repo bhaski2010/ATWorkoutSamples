@@ -1,6 +1,6 @@
 package arrays;
 
-public class SumOfTwoArrays {
+public class SumOfArrays {
     public static void main(String[]a) {
         int nums[] = new int[5];
         nums[0] = 2;

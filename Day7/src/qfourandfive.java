@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class qfourandfive {
     public static void main(String[]a){
         Scanner sc1 = new Scanner(System.in);
-        System.out.println("Enter Value 1: ");
+        System.out.println("Enter Value 1 for comparing: ");
         String s1 = sc1.nextLine();
-        System.out.println("Enter Value 2: ");
+        System.out.println("Enter Value 2 for comparing: ");
         String s2 = sc1.nextLine();
         System.out.println("Enter your email ID: ");
         String s3 = sc1.nextLine();
@@ -31,7 +31,7 @@ public class qfourandfive {
             if (cont1 == true)
                 System.out.println("This is valid email address");
             else {
-                System.out.println("The email entered is NOT valid ");
+                System.out.println("The email entered is NOT valid as there is NO @ symbol available");
             }
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompanyDetails/CompanyDetails.iml" filepath="$PROJECT_DIR$/CompanyDetails/CompanyDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CondStatements/CondStatements.iml" filepath="$PROJECT_DIR$/CondStatements/CondStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day10_Construc/Day10_Construc.iml" filepath="$PROJECT_DIR$/Day10_Construc/Day10_Construc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day11Exceptions/Day11Exceptions.iml" filepath="$PROJECT_DIR$/Day11Exceptions/Day11Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day3PolyMorph/Day3PolyMorph.iml" filepath="$PROJECT_DIR$/Day3PolyMorph/Day3PolyMorph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day4/Day4.iml" filepath="$PROJECT_DIR$/Day4/Day4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day5/Day5.iml" filepath="$PROJECT_DIR$/Day5/Day5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day6/Day6.iml" filepath="$PROJECT_DIR$/Day6/Day6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day7/Day7.iml" filepath="$PROJECT_DIR$/Day7/Day7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day8/Day8.iml" filepath="$PROJECT_DIR$/Day8/Day8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day9/Day9.iml" filepath="$PROJECT_DIR$/Day9/Day9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EcployeeDetails/EcployeeDetails.iml" filepath="$PROJECT_DIR$/EcployeeDetails/EcployeeDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeDetails/EmployeeDetails.iml" filepath="$PROJECT_DIR$/EmployeeDetails/EmployeeDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Phase1Workouts/Phase1Workouts.iml" filepath="$PROJECT_DIR$/Phase1Workouts/Phase1Workouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SampleProgram/SampleProgram.iml" filepath="$PROJECT_DIR$/SampleProgram/SampleProgram.iml" />
+    </modules>
+  </component>
+</project>

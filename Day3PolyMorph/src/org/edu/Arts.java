@@ -23,5 +23,8 @@ public class Arts extends Education{
         ar.bse();
         ar.eEd();
         ar.ba();
+        Education e = new Education();
+        e.pg();
+        e.ug();
     }
 }

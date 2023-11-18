@@ -9,3 +9,5 @@ public abstract class Abstract2 {
         System.out.println("Flat Number is G14");
     }
 }
+
+/// ****** This is created to check where and all we can use implements & extends keywords.

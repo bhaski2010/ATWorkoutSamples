@@ -1,4 +1,4 @@
-package numbertest;
+package encaps;
 
 public class Number {
     private String y;

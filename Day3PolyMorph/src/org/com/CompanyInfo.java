@@ -18,6 +18,6 @@ public class CompanyInfo {
         CompanyInfo ci = new CompanyInfo();
         ci.companyDetail(8769);
         ci.companyDetail(768, 3);
-        ci.companyDetail("Mannar & Co", "Moon", "Customer support");
+        ci.companyDetail("Mannar & Co", "Moon", "Support");
     }
 }

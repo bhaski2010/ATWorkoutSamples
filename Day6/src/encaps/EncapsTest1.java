@@ -1,4 +1,4 @@
-package numbertest;
+package encaps;
 
 public class EncapsTest1 extends Number {
     public static void main(String[]a){
