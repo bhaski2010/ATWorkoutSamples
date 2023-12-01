@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MapEx1 {
     public static void main(String[] args) {
-        Map<Integer, String > m1 = new HashMap<>();
+        Map<Integer, String> m1 = new HashMap<>();
         m1.put(10, "java");
         m1.put(20, "sql");
         m1.put(30, "oops");
@@ -12,11 +12,11 @@ public class MapEx1 {
         m1.put(50, "oracle");
         m1.put(60, "selenium");
         m1.put(70, "Hadoop");
-        m1.put(70,"RepeatedKey"); // Key is can't be dupilcated, when we add a duplicate key the value is updated in the same key
+        m1.put(70, "RepeatedKey"); // Key is can't be dupilcated, when we add a duplicate key the value is updated in the same key
         m1.put(null, "Test1");
         m1.put(null, "Test2");
         m1.put(80, null);
-        m1.put(90,null);
+        m1.put(90, null);
         m1.put(100, null);
         System.out.println("\nGiven Map 1 - HashMap: " + m1);
         System.out.println("HashMap accepts 1 null and value accepts n null - Prints in Random order");
@@ -27,11 +27,11 @@ public class MapEx1 {
         System.out.println("*************Iterating the map*************");
         Set<Map.Entry<Integer, String>> entryset = m1.entrySet();
         System.out.println(entryset);
-        for (Map.Entry <Integer, String> newentry:entryset) {
-        System.out.println(newentry);
+        for (Map.Entry<Integer, String> newentry : entryset) {
+            System.out.println(newentry);
         }
 
-        Map<Integer, String > m2 = new LinkedHashMap<>();
+        Map<Integer, String> m2 = new LinkedHashMap<>();
         m2.put(1, "10");
         m2.put(3, "");
         m2.put(2, null);
@@ -39,7 +39,7 @@ public class MapEx1 {
         m2.put(5, "map");
         m2.put(6, null);
         m2.put(null, "test1");
-        m2.put(null,null);
+        m2.put(null, null);
         m2.put(7, "test2");
         System.out.println("\nGiven Map 2 - LinkedHashMap: " + m2);
         System.out.println("LinkedHashMap accepts 1 null and value accepts n null - Prints in insertion order");
@@ -50,8 +50,8 @@ public class MapEx1 {
         System.out.println("*************Iterating the map*************");
         Set<Map.Entry<Integer, String>> entryset2 = m2.entrySet();
         System.out.println(entryset2);
-        for (Map.Entry<Integer, String> newentry2:entryset2) {
-        System.out.println(newentry2);
+        for (Map.Entry<Integer, String> newentry2 : entryset2) {
+            System.out.println(newentry2);
         }
 
         Map<String, String> m3 = new TreeMap<>();
@@ -71,11 +71,37 @@ public class MapEx1 {
         Collection<String> values3 = m3.values();
         System.out.println("Printing only values from Map: " + values3);
         System.out.println("*************Iterating the map*************");
-        Set<Map.Entry<String,String>> entrySet3 = m3.entrySet();
+        Set<Map.Entry<String, String>> entrySet3 = m3.entrySet();
         System.out.println(entrySet3);
-        for (Map.Entry<String,String> newentry3 : entrySet3) {
-        System.out.println(newentry3);
-        }
+        for (Map.Entry<String, String> newentry3 : entrySet3) {
+            System.out.println(newentry3);
 
+            Map<String, String> m4 = new Hashtable<>();
+            m4.put("Vel", "Selenium");
+            m4.put("Ganesh", "Framework");
+            m4.put("Dinesh", "Oracle");
+            m4.put("Venkat", "corejava");
+            m4.put("Subhash", "JIRA");
+
+            try {
+                m4.put(null, "BugZilla");
+                m4.put("Shiva", null);
+            } catch (NullPointerException e) {
+                System.out.println("\nHash table won't accept null value" + e);
+            }
+            System.out.println("Given Map 4 - HashTable: " + m4);
+            System.out.println("HashTable ignores 1 null in key and value - Prints in Random order");
+            Set<String> keyset4 = m4.keySet();
+            System.out.println("Printing only key from Map: " + keyset4);
+            Collection<String> values4 = m4.values();
+            System.out.println("Printing only values from Map: " + values4);
+            System.out.println("*************Iterating the map*************");
+            Set<Map.Entry<String, String>> entrySet4 = m4.entrySet();
+            System.out.println(entrySet4);
+            for (Map.Entry<String, String> newentry4 : entrySet4) {
+                System.out.println(newentry4);
+            }
+
+        }
     }
 }
